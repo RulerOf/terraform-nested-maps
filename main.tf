@@ -1,0 +1,3 @@
+module "submodule" {
+  source = "./module"
+}
