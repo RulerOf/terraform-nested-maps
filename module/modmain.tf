@@ -2,12 +2,12 @@ variable "mymap" {
   type        = "map"
   default = {
     key1 = {
-      subkey1 = "subval1"
-      subkey2 = "subval2"
+      k1_subkey1 = "k1_subval1"
+      k1_subkey2 = "k1_subval2"
     },
     key2 = {
-      subkey1 = "subval1"
-      subkey2 = "subval2"
+      k2_subkey1 = "k2_subval1"
+      k2_subkey2 = "k2_subval2"
     }
   }
 }
